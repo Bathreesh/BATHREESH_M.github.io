@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact BATHREESH.M - Email, Phone, and Location.">
+    <title>Contact | BATHREESH.M</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">BATHREESH.M</div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Home</a></li>
+                    <li><a href="about.html" class="nav__link">About</a></li>
+                    <li><a href="skills.html" class="nav__link">Skills</a></li>
+                    <li><a href="projects.html" class="nav__link">Projects</a></li>
+                    <li><a href="experience.html" class="nav__link">Experience</a></li>
+                    <li><a href="certifications.html" class="nav__link">Certifications</a></li>
+                    <li><a href="contact.html" class="nav__link nav__link--active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+
+                <div class="grid-3">
+                    <!-- Contact Sidebar -->
+                    <div style="grid-column: span 1;">
+                        <div class="card" style="margin-bottom: 1rem;">
+                            <h3 style="color: var(--primary-color);">Contact Info</h3>
+                            <ul style="margin-top: 1rem; line-height: 2;">
+                                <li><strong>Email:</strong> bathreesh2907@gmail.com</li>
+                                <li><strong>Phone:</strong> +91 9087244225</li>
+                                <li><strong>Location:</strong> Puducherry - 605 110</li>
+                            </ul>
+                        </div>
+                        <div class="card">
+                            <h3 style="color: var(--primary-color);">Social Profiles</h3>
+                            <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 10px;">
+                                <a href="#" class="nav__link"
+                                    style="color: var(--primary-color); text-transform: none;">LinkedIn Profile</a>
+                                <a href="#" class="nav__link"
+                                    style="color: var(--primary-color); text-transform: none;">GitHub Repositories</a>
+                                <a href="#" class="nav__link"
+                                    style="color: var(--primary-color); text-transform: none;">Twitter / X</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div style="grid-column: span 2;">
+                        <form class="card" action="#">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="John Doe"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-control"
+                                    placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-control"
+                                    placeholder="Collaboration Inquiry" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea id="message" name="message" rows="5" class="form-control"
+                                    placeholder="Hi Bathreesh, I'd like to talk about..." required></textarea>
+                            </div>
+                            <p style="font-size: 0.8rem; margin-bottom: 1rem; color: #666;">Note: This form is a visual
+                                demo. Clicking submit will not send an actual email.</p>
+                            <button type="submit" class="btn btn--primary" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Map Placeholder -->
+                <div class="card" style="margin-top: 3rem; text-align: center; background-color: #e2e8f0;">
+                    <h3 style="margin-bottom: 1rem;">Location Map</h3>
+                    <p>Puducherry, India - 605 110</p>
+                    <div
+                        style="height: 300px; background: #cbd5e0; margin-top: 1rem; border-radius: 4px; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: #4a5568; font-weight: 500;">Interactive Map Placeholder</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__socials">
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">GitHub</a>
+                <a href="#" class="social-link">Email</a>
+            </div>
+            <p class="footer__copy">&copy; 2025 BATHREESH.M. Built with HTML5 & CSS3. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
